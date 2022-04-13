@@ -1,0 +1,94 @@
+#h1 {
+    font-size: 9vw;
+    margin-bottom: 3vh;
+    color: red;
+    font-family: 'Courgette', Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 0.1px rgb(171, 0, 0);
+    font-weight: 900;
+}
+#h2 {
+    font-size: 2.2vw;
+    font-weight: 600;
+}
+.text {
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, sans-serif;
+    font-size: 1.8vw;
+    margin: 4vw;
+    line-height: 1.4;
+}
+#list {
+    text-align: justify;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+img {
+    width: 28%;
+    height: auto;
+    margin: 0.1vw;
+    border-width: 0.3rem;
+    border-color: red;
+    border-style: solid;
+    border-radius: 5rem;
+}
+img:hover {
+    transform: scale(1.1);
+    border-width: 0.5rem;
+}
+#recipe-img {
+    position: absolute;
+    left: 57vw;
+    top: 45vh;
+    width: 35%;
+    height: auto;
+}
+#recipe-img:hover {
+    transform: scale(1);
+    border-width: 0.3rem;
+}
+#recipe-img2 {
+    position: absolute;
+    left: 60vw;
+    top: 43vh;
+    width: 30%;
+    height: auto;
+}
+#recipe-img2:hover {
+    transform: scale(1);
+    border-width: 0.3rem;
+}
+#recipe-img3 {
+    position: absolute;
+    left: 65vw;
+    top: 42vh;
+    width: 26%;
+    height: auto;
+}
+#recipe-img3:hover {
+    transform: scale(1);
+    border-width: 0.3rem;
+}
+body {
+    background: linear-gradient(90deg, #ffb282, #ffd6c0, #fbe4aa);
+    background-size: auto;
+}
+.navbar {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+a:link {
+    color: black;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    margin: 20px;
+}
+a:visited {
+    color: black;
+}
+a:focus {
+    color: red;
+}
+a:visited {
+    color: black;
+}
